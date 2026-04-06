@@ -41,7 +41,7 @@ class ecowitt (
 
   nginx::site { $hostname:
     proxy_target => $target,
-    port         => $port
+    port         => $port,
     custom_file  => $custom_file,
   }
 }
