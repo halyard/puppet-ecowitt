@@ -2,6 +2,7 @@
 #
 # @param hostname sets the hostname for proxy
 # @param target sets the webhook target
+# @param port sets the local port
 class ecowitt (
   String $hostname,
   String $target,
