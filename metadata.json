@@ -1,0 +1,12 @@
+{
+  "name": "halyard-ecowitt",
+  "version": "0.0.1",
+  "author": "Les Aker",
+  "license": "MIT",
+  "summary": "Configure ecowitt proxy",
+  "source": "https://github.com/halyard/puppet-ecowitt",
+  "project_page": "https://github.com/halyard/puppet-ecowitt",
+  "issues_url": "https://github.com/halyard/puppet-ecowitt/issues",
+  "dependencies": [],
+  "operatingsystem_support": []
+}
