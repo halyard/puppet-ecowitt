@@ -16,7 +16,6 @@ class ecowitt (
     add_header X-XSS-Protection          \"1; mode=block\" always;
     add_header X-Content-Type-Options    \"nosniff\" always;
     add_header Referrer-Policy           \"no-referrer-when-downgrade\" always;
-    add_header Content-Security-Policy   \"default-src 'self' http: https: ws: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; frame-ancestors 'self';\" always;
 
     location /webhook {
         proxy_pass                         ${target};
