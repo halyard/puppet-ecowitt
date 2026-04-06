@@ -39,7 +39,7 @@ class ecowitt (
     }
 }"
 
-  nginx::site { $hostname:
+  nginx::insecuresite { $hostname:
     proxy_target => $target,
     port         => $port,
     custom_file  => $custom_file,
